@@ -1,7 +1,7 @@
 import gym
 import argparse
 
-from config import MEMORY_CAPACITY, TEST_EPISODE_NUM, BATCH_SIZE, E_GREEDY
+from config import TEST_EPISODE_NUM, BATCH_SIZE, E_GREEDY
 from DQN import DQN
 
 def newReward(obsesrvation, obsesrvation_):
